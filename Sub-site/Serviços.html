@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="/Sub-site/Serviços.css">
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="/Sub-site/o_circulo.mp4" type="video/mp4">
+    </video> 
+
+    <header>
+        <h2 class="logo">Sys Tech</h2>
+        <nav class="navegation">
+            <a href="/Gestão de produtos/func/index.html">Home</a>
+            <a href="/Sub-site/Sobre nós.html">Sobre Nós</a>
+            <a href="/Sub-site/Serviços.html">Serviços</a>
+            <a href="/Sub-site/Contato.html">Contato</a>
+            <!--<button class="btnLogin-popup">Login</button>-->
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#"> 
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Email</label>
+                </div>       
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                    <input type="Password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" onclick="register()" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Serviços</h2>
+            <form action="#">
+                <!--<div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Nome completo</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <input type="Email" required>
+                    <label>Email</label>
+                </div>       
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="reader-outline"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Área de atuação</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mic-outline"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Telefone</label>
+                </div>
+                <button type="submit" class="btn">Enviar</button>-->
+                <!--<div class="login-register">
+                    <p>Clique aqui para a gestão de produtos <a href="#" onclick="alterar()" class="register-link">"Alterar"</a></p>
+                </div>-->
+            </form>
+        </div>
+
+    </div>
+
+    <!--<script>
+        function register() {
+            document.getElementById('register-box').style.display ='block'
+            document.getElementById('login-box').style.display ='none'
+        }
+        function login() {
+            document.getElementById('register-box').style.display ='none'
+            document.getElementById('login-box').style.display ='block'
+        }
+    </script>-->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+<footer class="footer">
+    <div>
+        <p>Copyright © 2023 SYS TECH | Política de privacidade</p>
+    </div>
+</footer>
+</html>
