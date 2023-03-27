@@ -112,7 +112,7 @@ header {
 /*Para deixar a caixa centralizada*/
 .wrapper .form-box {
     width: 100%;
-    padding: 1.4rem;
+    padding: 1.4rem 2rem 0rem 6rem;
 
 }
 
@@ -138,9 +138,10 @@ header {
 }
 /*Login que esta dentro da caixa*/
 .form-box h2{
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: #fff;
     text-align: center;
+    margin-top: 2rem;
 }
 /*As duas linhas brancas embaixo de email e senha*/
 .input-box {
@@ -255,6 +256,11 @@ img{
 .info{
     display: flex;
     margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.Psobrenos{
+    letter-spacing: 0.8px;
 }
 
 .info p{
