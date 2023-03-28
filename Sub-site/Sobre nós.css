@@ -246,11 +246,16 @@ header {
     font-weight: 600;
 }
 
-img{
+.fachada{
     display: flex;  
     width: 40%;
     margin-top: 2vw ;
     border: 0.2vw solid white;
+}
+
+.logo{
+    height: 7vh;
+    margin-top: -1.6vh;
 }
 
 .info{

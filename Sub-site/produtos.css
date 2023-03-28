@@ -45,10 +45,9 @@ header {
     z-index: 99;
 }
 
-.logo {
-    font-size: 2em;
-    color: #fff;
-    user-select: none;
+.logo{
+    height: 10vh;
+    width: 16vh;
 }
 
 .o_circulo {
