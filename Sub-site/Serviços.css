@@ -254,17 +254,12 @@ header {
     display: block;
 }
 
-.Gestão{
-    width: 60%;
-    margin-top: 2vw ;
-    border: 0.2vw solid white;
-}
-
 .Migração{
-    width: 60%;
+    width: 38vw;
+    height: 24vw;
     margin-top: 2vw ;
-    margin-right: 8vw;
-    border: 0.2vw solid white;
+    margin-right: 4vw;
+    border: 0.1vw solid white;
 }
 
 .logo{
