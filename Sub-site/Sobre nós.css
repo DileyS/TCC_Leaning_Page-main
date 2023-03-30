@@ -36,7 +36,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 2vw 6vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -248,7 +248,8 @@ header {
 
 .fachada{
     display: flex;  
-    width: 40%;
+    width: 64vw;
+    height: 30vw;
     margin-top: 2vw ;
     border: 0.2vw solid white;
 }
@@ -272,6 +273,7 @@ header {
     z-index: 2;
     padding: 2rem 0rem 0rem 2rem;
     text-align: justify;
+    font-size: 0.88rem;
 }
 
 .footer{
