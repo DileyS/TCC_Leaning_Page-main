@@ -10,7 +10,6 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
 }
 
@@ -36,7 +35,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 2vw 6vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -255,8 +254,8 @@ header {
 }
 
 .Migração{
-    width: 38vw;
-    height: 24vw;
+    width: 43vw;
+    height: 29vw;
     margin-top: 2vw ;
     margin-right: 4vw;
     border: 0.1vw solid white;
@@ -273,14 +272,23 @@ header {
     margin-top: 2rem;
 }
 
-.Psobrenos{
+.Pgestão{
+    letter-spacing: 0.8px;
+}
+
+.Pmigração{
+    letter-spacing: 0.8px;
+}
+
+.Pdesenvolvimento{
     letter-spacing: 0.8px;
 }
 
 .info p{
     z-index: 2;
-    padding: 2rem 0rem 0rem 2rem;
+    padding: 2rem 0rem 0rem 0.02rem;
     text-align: justify;
+    font-size: 1rem;
 }
 
 .footer{
