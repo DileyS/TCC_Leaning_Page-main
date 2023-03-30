@@ -10,7 +10,6 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
 }
 
@@ -36,7 +35,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 2vw 6vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -287,8 +286,9 @@ header {
 
 .info p{
     z-index: 2;
-    padding: 2rem 0rem 0rem 2rem;
+    padding: 2rem 0rem 0rem 0.02rem;
     text-align: justify;
+    font-size: 1rem;
 }
 
 .footer{

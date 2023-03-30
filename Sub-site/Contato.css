@@ -17,8 +17,8 @@ body {
 /*A caixa onde fica todo o conteudo central*/
 .wrapper{
     position: relative;
-    width: 50em;
-    height: 45em;
+    width: 42em;
+    height: 40em;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     /*border-radius: 20px;*/
@@ -39,7 +39,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 2vw 6vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,6 +116,7 @@ header {
     width: 100%;
     padding: 40px;
     margin-bottom: 6.8vw;
+    margin-right: 2vw;
 }
 
 .wrapper .form-box.login {
@@ -143,6 +144,7 @@ header {
     font-size: 1.5em;
     color: #fff;
     text-align: center;
+    margin-top: -5.4vw;
 }
 /*As duas linhas brancas embaixo de email e senha*/
 .input-box {

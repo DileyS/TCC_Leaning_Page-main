@@ -10,7 +10,6 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
 }
 
@@ -273,7 +272,7 @@ header {
     z-index: 2;
     padding: 2rem 0rem 0rem 2rem;
     text-align: justify;
-    font-size: 0.88rem;
+    font-size: 1rem;
 }
 
 .footer{
